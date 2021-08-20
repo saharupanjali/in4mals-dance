@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IN4MALS Dance Page</title>
+    <link rel="Stylesheet" href="Stylesheet/style.css">
+    <link rel="Javascript" href="Javascript/javascript.js">
+    <style>
+      h2{
+        font-size:35px;
+      }
+@font-face{
+          font-family:'Alegreya Sans';
+          font-style:italic;
+          font-weight:300;
+          font-display:swap;
+          src:url(https://fonts.google.com/share?selection.family=Alegreya%20Sans:ital,wght@1,300);
+        }
+        @font-face{
+          font-family:'Merienda', cursive;
+          font-style:normal;
+          font-weight:400;
+          font-display:swap;
+          src:url(https://fonts.google.com/share?selection.family=Merienda);
+        }
+        @font-face{
+          font-family: Josefin Sans;
+          font-style:normal;
+          font-weight: light 300;
+          font-display:swap;
+          src:url( https://fonts.google.com/share?selection.family=Josefin%20Sans:wght@300);
+        }
+        /* latin-ext */
+@font-face {
+  font-family: 'Barrio';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barrio/v7/wEO8EBXBk8hBIDi0fAwgads.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v25/u-440qyriQwlOrhSvowK_l5-cSZMZ-Y.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v25/u-440qyriQwlOrhSvowK_l5-eCZMZ-Y.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v25/u-440qyriQwlOrhSvowK_l5-cyZMZ-Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v25/u-440qyriQwlOrhSvowK_l5-ciZMZ-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v25/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: light 400;
+  font-display: swap;
+  src: url(https://fonts.google.com/share?selection.family=Josefin%20Slab:wght@300);
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIMeaBXso.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIOuaBXso.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIO-aBXso.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+    </style>
+</head>
+<body>
+    <!--	Top Navigation Bar-->
+	<div class="bars" id="nav-action">
+		<span class="bar" id="bar1"> </span>
+		<span class="bar" id="bar2"> </span>
+		<span class="bar" id="bar3"> </span>
+	</div>
+    <nav id="nav">
+		<ul>
+			<li class="shape-circle circle-one"><a href="#contact-us">Contact</a></li>
+			<li class="shape-circle circle-two"><a href="#">Events</a></li>
+			<li class="shape-circle circle-three"><a href="#about-us">Our Team</a></li>
+			<li class="shape-circle circle-five"></li>
+		</ul>
+        </nav>
+        <header>
+         <div class="sign">
+          <span class="fast-flicker">in4mals</span><span class="flicker">dance</span>
+          </div>
+          <img class="a" src="in4mails_dance/IN4mals logo.jpeg" width="100px" height="100px">
+    </header>
+    <hr>
+    <main>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <div class="b">
+      <img src="https://i.pinimg.com/originals/30/45/9c/30459c328f5f535509d3131f773ab10f.jpg" width="100%" height="650px">
+      </div>
+      <br>
+      <br>
+      <div class="overlay">
+        <div class="wrapper">
+          <h2 class="title"><small>Welcome to </small>IN4MALS <small>Dance Page</small></h2>
+        </div>
+      </div>
+        <h4 class="head">**move your feet with every tune of music**</h4>
+        <br>
+        <br>
+        <br>
+        <h3 class="d">ABOUT US</h3>
+ 
+        <br>
+        <p>Hey Everyone, we welcome you all to the Dance Department of IN4MALS where we all are a family more than being a society only.We enjoy the steps more than dance and we focus on group development as well as individual perticipation. Here in our department we focus that all the members can develop their skills and show it to the world. You'll try and we will help you providing a stage to perform. Here you'll not only perform but will also feel every beat of dance and enjoy it. As mentioned before we work as a family, so it is our prime focus that all the members are bonded together and work together. Apart from formal talks we are ready to be a part of your happiness and pain, hence we'll have fun sessions where you all will enjoy and make strong bonds of friendship with each other. You can learn new skills from others as well as teach your skills to others so that we can grow together. Here we perform Classical, Bharatnatyam, Hip Hop, Freestyle, Bollywood and many more. We are fully sure that you'll enjoy each and every moment here. Do you know the best part here!! We don't force you for something, you can freely take part in your desired types of dance but we do push you to be better one day by day. Here you can gain new skills & can modify your own steps of dance too. Our members are very tallented & hard-working. With the help of our society they have already improved their skills. So we welcome you all to our society and will look forward for your joining. Get ready to explore and get limitless opportunities, high hopes, unbounded stage and promising friendship.</p>
+        <br>
+        <br>
+        <br>
+        <h4 class="S">🔶🔶🔶</h4>
+        <br>
+        <h3 class="d">OUR DANCE STUDIO</h3>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<video class="V" width="500px" height="350px" src="video1.mp4" controls loop muted poster="img5.png.crdownload"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <video class="V" width="500px" height="350px" src="video 2.mp4" controls loop muted poster="img3.jpg.crdownload"></video>
+    <br>
+    <br>
+    <video id="i"width="650px" height="500px" src="img_7.mp4" controls loop muted poster="img8.jpeg"></video>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<video class="V" width="500px" height="350px" src="video_3.mp4" controls loop muted poster="img2.png.crdownload"></video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <video class="V" width="500px" height="350px" src="video_4.mp4" controls loop muted poster="img7.jpeg"></video>
+    <br>
+    <br>
+    <br>
+    <p>Here in IN4MALS society we practice & encourage all the dance forms. We have displayed some of our works here some are solo performances & some are group performances. The performances include modern style, western style, classical, folk & bollywood styles of dance ||
+      🔶The number of classical dances range from eight to more, depending on the source and scholar. The Sangeet Natak Academy recognizes eight – Bharatanatyam, Kathak, Kuchipudi, Odissi, Kathakali, Sattriya, Manipuri and Mohiniyattam. Scholars such as Drid Williams add Chhau, Yakshagana and Bhagavata Mela to the list. Classical dance has many styles. Indian classical dance Legends from the seven dance styles Bharatnatyam, Kathak, Kathakali, Kuchipudi, Manipuri, Mohinattyam and Odissi || 🔶Many different dances are done to country-western music. These dances include: Two Step, Waltz, Cowboy or Traveling Cha Cha, Polka Ten Step (also known as Ten Step Polka), Schottische, and other Western promenade dances, East Coast Swing, West Coast Swing, and Nightclub Two Step || 🔶Modern dance is a broad genre of western concert or theatrical dance which included dance styles such as ballet, folk, ethnic, religious, and social dancing; and primarily arose out of Europe and the United States in the late 19th and early 20th centuries. Some examples of modern styles of dance are Ballet. In the aspect of modern dances, it is characterized by floor work; turn-in of the legs; greater range of movement and body line; and pointe shoes but also bare feet. Burlesque,Ballroom Dance,Belly Dancing,Jazz are some famous classifications || 🔶Folk dance, generally, a type of dance that is a vernacular, usually recreational, expression of a past or present culture. The term folk dance was accepted until the mid-20th century. Then this and other categories of dance were questioned and their distinctions became subject to debate || 🔶Bollywood Dance style is a fusion of various dance styles. It includes Bharatanatyam, Kathak, Bhangra, Jazz, Hip-hop, Arabic, Western dance to name a few. Classical Indian dance incorporates the two basic elements of dance and expression. Bollywood hip-hop dance has recently acquired much attention.</p>
+      <p><b>So we will like to invite you to join our society if you also want to grow or enhance the magical skills of dance in you.</b></p>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h4 class="S">🔶🔶🔶</h4>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<h3 class="d">MEET THE DANCERS OF OUR SOCIETY</h3>
+<br>
+<br>
+<img class="A" src="img_3.jpeg" width="200px" height="250px" alt="Suparna Roy Gupta">
+<h4 class="A">Suparna Roy Gupta</h4>
+<p>Hi, I'm Suparna Roy Gupta, the dance coordinator of IN4MALS society. I began my dance career at DR. RUMPA SINHA'S  NATYALAYA from the age of 2yr. I am doing a junior diploma course in Bharatnatyam also from Prayag Sangeet Vishwavidyalaya. I have competed in many national level and state level competitions. I have also attended many seminars in state & national level also competed in many school level & state, national level competitions. Some of my other skills include contemporary, semi-classical and bollywood dance. Recently I'm co-ordinating the dance group of IN4MALS. I try to guide & motivate all the members in our dance society. What I think about  Dance is ,it  is a form of expression that brings people together, allows them to be creative in new ways, and is a fantastic way to escape the stresses and cares of everyday life. When I dance I am completely get released from the preoccupations and stresses of day to day life. Growth never comes from the comfort zone. Every time I dance or perform I feel like I am stepping into a new realm in which gives me an opportunity to grow and discover new things about my dance technique or even myself as a person. I enjoy growth, and performing is a wonderful catalyst in which this can happen. To know more about me, about the dance forms or to join with us visit my official instagram page.</p>
+<h4>Instagram Id: @_suparna13__</h4>
+<br>
+<br>
+<img class="B" src="in4mails_dance/dance_4.jpg" width="200px" height="250px" alt="Adyasha Mohanty">
+<h4 class="A">Adyasha Mohanty</h4>
+<p>Hi, I'm Adyasha Mohanty. I am a professionally trained dancer and started my journey in dancing at the age of 5 years. Ever Since I watched bollywood actors dancing in movies, I wanted to do that. All thanks to my parents who supported me and started giving me professional training since I was 4 years old. It's been more than 12-13 years since I am performing. I am professionally trained in Odissi but also perform in bollywood, semiclassical forms as well. Odissi is a beautiful dance form where we depict stories through postures,mudras and expressions. It has a very unique costume when it comes to attire. I have completed my 3rd year Odissi exams also and have an experience of performing for more than 12-13 years. I have competed in many national and international level programs as well. I'm here in IN4MALS members of our dance team since 1-2 months & already took part in 2 projects. IN4MALS society has already given me the chance to be a part of two projects which were done online because of the pandemic. I expect, as soon as things get normal, we'd meet offline, we will start performing on stage and my skills will be even more enhanced. To know more about me you can reach me out in my Instagram page. You can also visit my youtube channel to watch my videos & stay tunned.
+  <h4>Instagram Id: @_d.i.s.h.aa_ || Youtube channel: <a href="https://youtube.com/channel/UC-dEnaoAio2q1NPdQi9v85Q">Adyasha Mohanty</a></h4>
+
+<br>
+<br>
+<img class="A" src="img_1.jpeg" width="200px" height="250px"alt="Oshmita Sarkar">
+<h4 class="A">Oshmita Sarkar</h4>
+<p>Hi, I'm Oshmita Sarkar. I'm a second year student of CSE. I have a specialization in Bharatanatyam and have also given performances in folk, fusion and regional dances. I have participated in various competitions of the IIT's and have made it to the finals. I also took part in the KORUS fest of KIIT and have been a part of various local projects of In4mals for its social media page and YouTube channel. For me, dance is like a spiritual purification. Every move, every beat creates an aura of positivity within me. I have been a passionate dancer since childhood and still continue the learning process as I believe that learning must never stop. In4mals has provided me with a platform to showcase my individuality as well as the tallents that I have achieved from continuous practices. I specialise in classical dance along with folk, bollywood and regional dances. I can firmly affirm that being a part of this society has helped me grow as a dancer and unleashed a new being within me.To know more about me reach me out at my official instagram page.</p>
+<h4>Instagram Id: @bridge_over_dreams</h4>
+    <br>
+    <br>
+    <img class="B" src="satya_2.jpeg" width="200px" height="250px" alt="Satyajeet Das">
+    <h4 class="A">Satyajeet Das</h4>
+    <p>Hi, My name is Styajeet Das. I am now in second year from CSSE branch. I am very much passionate in dancing & love to dance. I am not at all a professionally trained dancer. I've been performing on the stage since class 8. I usually use to do Hip Hop, Bollywood or Freestyle dancing. I've joined our society few months ago but have already taken part in few projects of dance and performed in various competitions with the help of that wide platform the IN4MALS provided me. My love for dance has brought me here. The feeling that the steps of dance gave me is beyond my imagination and cannot be described in words. IN4MALS gave me the perfect stage and opportunity to rise. It gave me the spark to continue my Dance after a break of two years I'm eger to learn more and improve my skills here.If you want to know more about me visit my official instagram page.</p>
+    <h4>Instagram Id: @ satyajeet_das001</h4>
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="l"><img class="I" src="img_6.jpeg" width="175px" height="175px"><br>Antra Dey</p>
+    <br>
+      <p class="l"><img class="I" src="in4mails_dance/dance_2.jpg" width="175px" height="175px"><br>Avantika Lenka</p>
+      <br>
+      <p class="l"><img class="I" src="img_4.jpeg" width="175px" height="175px"><br>Shruti Nath</p>
+      <br>
+     <p class="l"><img class="I" src="img_2.jpeg" width="175px" height="175px"><br>Utkarsha Anannya Samal</p>
+     <br>
+     <p class="l"><img class="I" src="in4mails_dance/dance_1.jpg" width="175px" height="175px"><br>Sanjeevani Prashant Eache</p>
+     <br>
+    <p class="l"><img class="I" src="img_5.jpeg" width="175px" height="175px"><br>Vagisha Mishra</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h4 class="S">🔶🔶🔶</h4>
+</main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span style='font-size:50px;'>&#127942;</span><br>
+    <span style='font-size:50px;'>&#11088;</span><br>
+    <span style='font-size:50px;'>&#129351;</span>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <footer>
+        <p>copyright &copy; in4mails 2021</p>
+    </footer>
+</body>
+</html>
