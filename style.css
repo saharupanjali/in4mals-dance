@@ -357,7 +357,7 @@ box-shadow: 0 0 5px
 h4.head{
     color:cyan;
     text-align: center;
-    font-size:25px;
+    font-size:20px;
 	font-family: 'nunito';
 }
 *{
@@ -366,6 +366,7 @@ h4.head{
 }
 img.a{
     border-radius:75px;
+    border-color: blue;
 }
 div.b
 {
@@ -463,10 +464,11 @@ h4.A:hover{
 	background: linear-gradient(#101d2e, #e8d57f, #e8d57f);
 }
 footer+p{
-   color:seashell;
+   color:tomato;
    display:block;
    text-align: center;
    padding:5px;
+   font-family:'Times New Roman', Times, serif;
 }
 img.I{
 	border-radius: 100px;
@@ -511,15 +513,6 @@ video.V{
 		font-family: Clip;
 		src: url("https://acupoftee.github.io/fonts/Clip.ttf");
 	  }
-	  
-	  body {
-		  /*background-image: url(https://previews.123rf.com/images/kjpargeter/kjpargeter1210/kjpargeter121000034/15681064-party-people-background.jpg);*/
-		  overflow:hidden;
-		  background-repeat: no-repeat;
-		background-size: cover;
-		/*background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;*/
-	  }
-	  
 	  .sign {
 		position: absolute;
 		display: flex;
@@ -778,4 +771,43 @@ video.V{
 	}
 	body{
 		background-color: #101d2e;
+		text-align: center;
 	}
+
+	.wrapper{
+		width:1170px;
+		margin:0 auto;
+	}
+	header{
+		height:100px;
+		z-index: 12;
+		position:fixed;
+	}
+	.logo{
+		float:left;
+	}
+    .banner-area{
+		width:100%;
+		height:500px;
+		position:fixed;
+		top:100px;
+		background-image: url(https://i.pinimg.com/originals/30/45/9c/30459c328f5f535509d3131f773ab10f.jpg);
+		-webkit-background-size:cover;
+		background-size: cover;
+		background-position:center center;
+		background-color: transparent;
+   }
+   .banner-area h2{
+	   padding-top: 4%;
+   }
+   div.content-area{
+    width:100%;
+    position: relative;
+    top:450px;
+    background: #101d2e;
+	height: 100%;
+}
+img.Image{
+	border-radius: 100px;
+	box-shadow: 3px 3px 5px  rgb(241, 118, 74);
+}
